@@ -1,0 +1,5 @@
+rootProject.name = 'Ara-IOT'
+include 'Framework'
+include 'Voice'
+include 'Display'
+
