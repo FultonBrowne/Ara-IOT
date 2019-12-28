@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="" />
+    <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Ara-IOT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Voice/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,17 +35,18 @@
         <task path="$PROJECT_DIR$/Framework">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Voice">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Ara-IOT" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Ara-IOT" type="f1a62948:ProjectNode" />
-                <item name="Display" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -47,17 +62,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Rvm9aOfWdIrijNe6za3wr1xR8G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Framework/build.gradle" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -67,22 +90,60 @@
       <recent name="C:\Users\pholtor\Desktop\code\Ara-IOT\Framework" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Gradle.Ara-IOT [dependencies]">
+    <configuration name="Ara-IOT [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ara-IOT:Voice [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Voice" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Gradle.Ara-IOT [dependencies]" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -99,19 +160,44 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="994" y="281" key="FileChooserDialogImpl" timestamp="1570556253194">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577560437270">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1577560437270" />
+    <state x="707" y="225" key="FileChooserDialogImpl" timestamp="1577560436091">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="994" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1570556253194" />
+    <state x="707" y="225" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577560436091" />
+    <state width="1318" height="164" key="GridCell.Tab.0.bottom" timestamp="1577560497556">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577560497556" />
+    <state width="1318" height="164" key="GridCell.Tab.0.center" timestamp="1577560497555">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577560497555" />
+    <state width="1318" height="164" key="GridCell.Tab.0.left" timestamp="1577560497555">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577560497555" />
+    <state width="1318" height="164" key="GridCell.Tab.0.right" timestamp="1577560497556">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577560497556" />
     <state x="699" y="169" key="SettingsEditor" timestamp="1570556262691">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
-    <state x="596" y="138" key="new project wizard" timestamp="1570556745769">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="0" y="27" width="1356" height="741" key="new project wizard" timestamp="1577560357171">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="596" y="138" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1570556745769" />
+    <state x="0" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1577560357171" />
     <state x="870" y="246" width="672" height="677" key="run.anything.popup" timestamp="1570555999696">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
