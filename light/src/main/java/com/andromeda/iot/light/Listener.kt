@@ -12,19 +12,11 @@ import java.util.*
  * MQTT transport.
  */
 object Listener{
-    /**
-     * Receives requests from an IoT Hub. Default protocol is to use
-     * MQTT transport.
-     *
-     * @param args
-     * args[0] = IoT Hub connection string
-     * args[1] = protocol (optional, one of 'mqtt' or 'amqps' or 'https' or 'amqps_ws')
-     */
     @Throws(IOException::class, URISyntaxException::class)
-    fun main(args: Array<String>) {
+    fun main() {
         println("Starting...")
         println("Beginning setup.")
-        val connString = args[0]
+        val connString = ""
         val protocol: IotHubClientProtocol = IotHubClientProtocol.HTTPS
 
 
@@ -64,7 +56,7 @@ object Listener{
         }
 
         override fun toString(): String {
-            return Integer.toString(num)
+            return num.toString()
         }
 
     }
