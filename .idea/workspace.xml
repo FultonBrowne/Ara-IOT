@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577595026532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working on receiver">
+      <created>1577648417220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577648417220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,11 +184,15 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577594612001" />
-    <state x="175" y="27" width="810" height="741" key="CommitChangelistDialog2" timestamp="1577595026332">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="391" y="121" width="810" height="741" key="CommitChangelistDialog2" timestamp="1577648416774">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577565737071" />
+    <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577648416774" />
     <state x="175" y="27" width="810" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577595026332" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1577649217268">
+      <screen x="0" y="236" width="3046" height="814" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.236.3046.814@0.236.3046.814" timestamp="1577649217268" />
     <state x="707" y="225" key="FileChooserDialogImpl" timestamp="1577560436091">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
