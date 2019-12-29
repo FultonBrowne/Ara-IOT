@@ -6,8 +6,7 @@ plugins {
 }
 
 
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+
 
 
 
@@ -24,6 +23,8 @@ dependencies {
     implementation ('com.microsoft.azure.sdk.iot:iot-device-client:1.14.2')
 
 }
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 compileKotlin {
     kotlinOptions {
         jvmTarget = "1.8"

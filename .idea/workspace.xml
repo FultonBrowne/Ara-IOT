@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/light/Ara-IOT.light.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Listener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Listener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/ReadData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +43,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Ara-IOT" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Ara-IOT" type="f1a62948:ProjectNode" />
-                <item name="light" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Ara-IOT" type="f1a62948:ProjectNode" />
-                <item name="light" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Ara-IOT" type="f1a62948:ProjectNode" />
-                <item name="light" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -99,8 +78,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -185,14 +164,14 @@
     </state>
     <state x="314" y="267" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.236.3046.814@0.236.3046.814" timestamp="1577565767883" />
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1577579926997" />
-    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1577580321102">
+    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1577594885707">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1577580321102" />
-    <state x="359" y="67" width="637" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577582726253">
+    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1577594885707" />
+    <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577594612001">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="359" y="67" width="637" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577582726253" />
+    <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577594612001" />
     <state x="175" y="27" width="810" height="741" key="CommitChangelistDialog2" timestamp="1577580967130">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -223,11 +202,11 @@
     </state>
     <state width="816" height="265" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577565744150" />
     <state width="1318" height="163" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577583154701" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577583399178">
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577594843813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577583399178" />
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577594843813" />
     <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577579910903">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
