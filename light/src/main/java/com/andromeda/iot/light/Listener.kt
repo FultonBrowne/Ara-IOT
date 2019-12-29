@@ -16,7 +16,7 @@ object Listener{
     fun main() {
         println("Starting...")
         println("Beginning setup.")
-        val connString = ""
+        val connString = "HostName=Ara-iot.azure-devices.net;DeviceId=test123;SharedAccessKey=YjrBJulKCyKuDJFzoEmFfV+oUtota0bhaK9jYZZADH8="
         val protocol: IotHubClientProtocol = IotHubClientProtocol.HTTPS
 
 
@@ -95,13 +95,15 @@ object Listener{
     }
 
     class IotHubConnectionStatusChangeCallbackLogger : IotHubConnectionStatusChangeCallback {
-        override fun execute(status: IotHubConnectionStatus, statusChangeReason: IotHubConnectionStatusChangeReason, throwable: Throwable, callbackContext: Any) {
+        override fun execute(status: IotHubConnectionStatus, statusChangeReason: IotHubConnectionStatusChangeReason, throwable: Throwable?, callbackContext: Any) {
             println()
             println("CONNECTION STATUS UPDATE: $status")
             println("CONNECTION STATUS REASON: $statusChangeReason")
-            println("CONNECTION STATUS THROWABLE: " + throwable.message)
+            if (throwable != null) {
+                println("CONNECTION STATUS THROWABLE: " + throwable.message)
+            }
             println()
-            throwable.printStackTrace()
+            throwable?.printStackTrace()
             when (status) {
                 IotHubConnectionStatus.DISCONNECTED -> { //connection was lost, and is not being re-established. Look at provided exception for
     // how to resolve this issue. Cannot send messages until this issue is resolved, and you manually
