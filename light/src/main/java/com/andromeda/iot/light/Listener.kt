@@ -1,13 +1,16 @@
 package com.andromeda.iot.light
 
-import com.microsoft.azure.sdk.iot.device.IotHubMessageResult
-import com.microsoft.azure.sdk.iot.device.Message
+import com.microsoft.azure.sdk.iot.device.DeviceClient
+import com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
 
-class Listener : com.microsoft.azure.sdk.iot.device.MessageCallback {
-    override fun execute(message: Message?, callbackContext: Any?): IotHubMessageResult? {
-        message?.iotHubConnectionString
-        return null
+class Listener  {
+    private val connString: String = ""
+    private val listen = DeviceClient("", IotHubClientProtocol.HTTPS)
+    fun main(){
+        listen.open()
+
     }
+
 
 
 }
