@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/light/build/libs/light-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/light/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Listener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/ReadData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,8 +110,8 @@
       <recent name="C:\Users\pholtor\Desktop\code\Ara-IOT\Framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.andromeda.iot.light.MainKt">
-    <configuration name="Ara-IOT:light [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Ara-IOT:light [build run]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/light" />
@@ -125,6 +123,7 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+            <option value="run" />
           </list>
         </option>
         <option name="vmOptions" value="" />
@@ -132,28 +131,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="com.andromeda.iot.light.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Ara-IOT.light.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.andromeda.iot.light.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Gradle.Ara-IOT:light [build]" />
-      <item itemvalue="Kotlin.com.andromeda.iot.light.MainKt" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.com.andromeda.iot.light.MainKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -178,46 +155,68 @@
       <option name="presentableId" value="Default" />
       <updated>1570555792738</updated>
     </task>
+    <task id="LOCAL-00001" summary="working on the light code for ras pi">
+      <created>1577565737569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577565737569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="working on the light code for ras pi" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on the light code for ras pi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="267" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577565636689">
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577579926997">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="314" y="267" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.236.3046.814@0.236.3046.814" timestamp="1577565767883" />
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1577579926997" />
+    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1577580321102">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1577580321102" />
+    <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2" timestamp="1577565737071">
       <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state x="314" y="267" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.236.3046.814@0.236.3046.814" timestamp="1577565636689" />
-    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1577560437270" />
+    <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577565737071" />
     <state x="707" y="225" key="FileChooserDialogImpl" timestamp="1577560436091">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="994" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1570556253194" />
     <state x="707" y="225" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577560436091" />
-    <state width="816" height="265" key="GridCell.Tab.0.bottom" timestamp="1577565624807">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="163" key="GridCell.Tab.0.bottom" timestamp="1577580594695">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="816" height="265" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1577565624807" />
-    <state width="1318" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577560497556" />
-    <state width="816" height="265" key="GridCell.Tab.0.center" timestamp="1577565624807">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="816" height="265" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1577565744151" />
+    <state width="1318" height="163" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577580594695" />
+    <state width="1318" height="163" key="GridCell.Tab.0.center" timestamp="1577580594694">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="816" height="265" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1577565624807" />
-    <state width="1318" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577560497555" />
-    <state width="816" height="265" key="GridCell.Tab.0.left" timestamp="1577565624806">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="816" height="265" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1577565744147" />
+    <state width="1318" height="163" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577580594694" />
+    <state width="1318" height="163" key="GridCell.Tab.0.left" timestamp="1577580594694">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="816" height="265" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1577565624806" />
-    <state width="1318" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577560497555" />
-    <state width="816" height="265" key="GridCell.Tab.0.right" timestamp="1577565624807">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="816" height="265" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1577565744147" />
+    <state width="1318" height="163" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577580594694" />
+    <state width="1318" height="163" key="GridCell.Tab.0.right" timestamp="1577580594695">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="816" height="265" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577565624807" />
-    <state width="1318" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577560497556" />
+    <state width="816" height="265" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577565744150" />
+    <state width="1318" height="163" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577580594695" />
     <state x="699" y="169" key="SettingsEditor" timestamp="1570556262691">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
+    <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577579910903">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="319" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577579910903" />
     <state x="0" y="236" width="1680" height="814" key="new project wizard" timestamp="1577565392957">
       <screen x="0" y="236" width="3046" height="814" />
     </state>
