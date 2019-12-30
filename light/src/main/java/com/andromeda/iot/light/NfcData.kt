@@ -6,7 +6,7 @@ import javax.smartcardio.TerminalFactory
 
 
 class NfcData {
-    fun bin2hex(data: ByteArray): String? {
+    private fun bin2hex(data: ByteArray): String? {
         return String.format("%0" + data.size * 2 + "X", BigInteger(1, data))
     }
     fun main(){
