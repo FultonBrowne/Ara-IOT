@@ -17,7 +17,7 @@ object Listener{
         println("Starting...")
         println("Beginning setup.")
         val connString = "HostName=Ara-iot.azure-devices.net;DeviceId=test123;SharedAccessKey=YjrBJulKCyKuDJFzoEmFfV+oUtota0bhaK9jYZZADH8="
-        val protocol: IotHubClientProtocol = IotHubClientProtocol.HTTPS
+        val protocol: IotHubClientProtocol = IotHubClientProtocol.MQTT
 
 
         println("Successfully read input parameters.")
