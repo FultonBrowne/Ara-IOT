@@ -4,8 +4,7 @@
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Listener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Listener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/NfcData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/NfcData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577719585011</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed a bug">
+      <created>1577729359110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577729359110</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,11 +255,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577594612001" />
-    <state x="175" y="27" width="822" height="741" key="CommitChangelistDialog2" timestamp="1577719584814">
+    <state x="175" y="27" width="822" height="741" key="CommitChangelistDialog2" timestamp="1577729358876">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577651557195" />
-    <state x="175" y="27" width="822" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577719584814" />
+    <state x="175" y="27" width="822" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577729358876" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1577649217268">
       <screen x="0" y="236" width="3046" height="814" />
     </state>
@@ -288,10 +294,10 @@
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
     <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577594843813" />
-    <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577579910903">
+    <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577738271564">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="319" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577579910903" />
+    <state x="319" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577738271564" />
     <state x="0" y="27" width="1680" height="814" key="new project wizard" timestamp="1577723620958">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
