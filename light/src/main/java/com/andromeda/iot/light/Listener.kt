@@ -24,15 +24,9 @@ object Listener{
         System.out.format("Using communication protocol %s.\n", protocol.name)
         val client = DeviceClient(connString, protocol)
         println("Successfully created an IoT Hub client.")
-        if (protocol == IotHubClientProtocol.MQTT) {
             val callback = MessageCallbackMqtt()
             val counter = Counter(0)
             client.setMessageCallback(callback, counter)
-        } else {
-            val callback = MessageCallback()
-            val counter = Counter(0)
-            client.setMessageCallback(callback, counter)
-        }
         println("Successfully set message callback.")
         client.registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallbackLogger(), Any())
         client.open()

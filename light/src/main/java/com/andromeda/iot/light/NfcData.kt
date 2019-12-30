@@ -9,4 +9,5 @@ class NfcData {
         return ""
     }
 
+
 }
