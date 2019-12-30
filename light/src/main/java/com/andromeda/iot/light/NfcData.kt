@@ -2,8 +2,11 @@ package com.andromeda.iot.light
 
 class NfcData {
     fun main(){
-        System.setProperty("mainKey", "")
+        System.setProperty("mainKeyForLight", nfcData())
     }
-    private fun nfcData(){}
+    private fun nfcData():String{
+
+        return ""
+    }
 
 }
