@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +96,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="C:\Users\pholtor\Desktop\code\Ara-IOT" />
       <recent name="C:\Users\pholtor\Desktop\code\Ara-IOT\Framework" />
     </key>
@@ -315,11 +330,15 @@
     <state width="1632" height="264" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577650777457" />
     <state width="1318" height="264" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577723673116" />
     <state width="1632" height="418" key="GridCell.Tab.0.right/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577753151122">
+    <state x="384" y="110" width="587" height="581" key="RollbackChangesDialog" timestamp="1577756109780">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="384" y="110" width="587" height="581" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1577756109780" />
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577755355499">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577753151122" />
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577755355499" />
     <state x="344" y="236" key="SettingsEditor/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577746593110" />
     <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577749456778">
       <screen x="0" y="27" width="1366" height="741" />
@@ -331,6 +350,10 @@
     <state x="596" y="138" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1570556745769" />
     <state x="0" y="236" width="1680" height="814" key="new project wizard/0.236.3046.814@0.236.3046.814" timestamp="1577565392957" />
     <state x="0" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1577723620958" />
+    <state x="427" y="41" width="501" height="720" key="refactoring.ChangeSignatureDialog" timestamp="1577754739212">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="427" y="41" width="501" height="720" key="refactoring.ChangeSignatureDialog/0.27.1366.741@0.27.1366.741" timestamp="1577754739212" />
     <state x="870" y="246" width="672" height="677" key="run.anything.popup" timestamp="1570555999696">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
