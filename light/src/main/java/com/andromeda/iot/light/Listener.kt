@@ -16,7 +16,8 @@ object Listener{
     fun main() {
         println("Starting...")
         println("Beginning setup.")
-        val connString = "HostName=Ara-iot.azure-devices.net;DeviceId=56122d1b-6d30-4ea0-8179-73ee85163a8516989;SharedAccessKey=Z4Rzk1H2i+fmoOoO+OjKzqqn3rDRXBiykTjWeXRIsdc="
+        if(System.getProperty("araId") == null) Nfc().main()
+        val connString = System.getProperty("araId")
         val protocol: IotHubClientProtocol = IotHubClientProtocol.MQTT
 
 
