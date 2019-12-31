@@ -1,4 +1,0 @@
-/home/fulton/Desktop/code/Ara-IOT/light/src/main/java/com/andromeda/iot/light/Listener.kt
-/home/fulton/Desktop/code/Ara-IOT/light/src/main/java/com/andromeda/iot/light/BlueTooth.kt
-/home/fulton/Desktop/code/Ara-IOT/light/src/main/java/com/andromeda/iot/light/main.kt
-/home/fulton/Desktop/code/Ara-IOT/light/src/main/java/com/andromeda/iot/light/NfcData.kt

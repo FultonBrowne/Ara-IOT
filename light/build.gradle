@@ -18,8 +18,8 @@ dependencies {
     implementation ('com.microsoft.azure.sdk.iot:iot-device-client:1.14.2')
 
 }
-sourceCompatibility = JavaVersion.VERSION_12
-targetCompatibility = JavaVersion.VERSION_12
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.targetCompatibility = JavaVersion.VERSION_1_8
 compileKotlin {
     kotlinOptions {
         jvmTarget = "12"
