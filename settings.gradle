@@ -3,4 +3,5 @@ include 'Framework'
 include 'Voice'
 include 'Display'
 include 'light'
+include 'HVAC'
 

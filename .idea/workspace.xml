@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HVAC/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/build/kotlin/lightjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/kotlin/lightjar-classes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/build/libs/light.jar" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/libs/light.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577758683940</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refactor">
+      <created>1577764854302</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577764854302</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,7 +286,8 @@
     <MESSAGE value="works" />
     <MESSAGE value="gradle 6.0.1" />
     <MESSAGE value="fixed odd issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed odd issue" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577579926997">
@@ -304,11 +307,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577594612001" />
-    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2" timestamp="1577758683590">
+    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2" timestamp="1577764854160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577745985196" />
-    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577758683590" />
+    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577764854160" />
     <state x="216" y="121" width="818" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747402960" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1577649217268">
       <screen x="0" y="236" width="3046" height="814" />
@@ -319,29 +322,29 @@
     </state>
     <state x="994" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1570556253194" />
     <state x="707" y="225" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577560436091" />
-    <state width="1318" height="263" key="GridCell.Tab.0.bottom" timestamp="1577764702160">
+    <state width="1318" height="263" key="GridCell.Tab.0.bottom" timestamp="1577810381505">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1577650777458" />
-    <state width="1318" height="263" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
+    <state width="1318" height="263" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577810381505" />
     <state width="1632" height="418" key="GridCell.Tab.0.bottom/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.center" timestamp="1577764702160">
+    <state width="1318" height="263" key="GridCell.Tab.0.center" timestamp="1577810381505">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1577650777457" />
-    <state width="1318" height="263" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
+    <state width="1318" height="263" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577810381505" />
     <state width="1632" height="418" key="GridCell.Tab.0.center/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.left" timestamp="1577764702159">
+    <state width="1318" height="263" key="GridCell.Tab.0.left" timestamp="1577810381504">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1577650777456" />
-    <state width="1318" height="263" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577764702159" />
+    <state width="1318" height="263" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577810381504" />
     <state width="1632" height="418" key="GridCell.Tab.0.left/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.right" timestamp="1577764702160">
+    <state width="1318" height="263" key="GridCell.Tab.0.right" timestamp="1577810381505">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577650777457" />
-    <state width="1318" height="263" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
+    <state width="1318" height="263" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577810381505" />
     <state width="1632" height="418" key="GridCell.Tab.0.right/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
     <state x="384" y="110" width="587" height="581" key="RollbackChangesDialog" timestamp="1577756109780">
       <screen x="0" y="27" width="1366" height="741" />
@@ -357,12 +360,12 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="319" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577756661422" />
-    <state x="0" y="27" width="1680" height="814" key="new project wizard" timestamp="1577723620958">
+    <state x="0" y="27" width="1680" height="814" key="new project wizard" timestamp="1577820452088">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="596" y="138" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1570556745769" />
     <state x="0" y="236" width="1680" height="814" key="new project wizard/0.236.3046.814@0.236.3046.814" timestamp="1577565392957" />
-    <state x="0" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1577723620958" />
+    <state x="0" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1577820452088" />
     <state x="427" y="41" width="501" height="720" key="refactoring.ChangeSignatureDialog" timestamp="1577754739212">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
