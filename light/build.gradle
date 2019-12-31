@@ -18,6 +18,7 @@ dependencies {
     implementation ('com.microsoft.azure.sdk.iot:iot-device-client:1.14.2')
 
 }
+mainClassName="com.andromeda.iot.light.Main"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 java.targetCompatibility = JavaVersion.VERSION_1_8
 compileKotlin {

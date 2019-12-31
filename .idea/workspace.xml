@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b07175-6bd4-4940-a9f8-17c69f5d002e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Nfc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/light/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/NfcData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/NfcData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/build/kotlin/lightjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/kotlin/lightjar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/build/libs/light.jar" beforeDir="false" afterPath="$PROJECT_DIR$/light/build/libs/light.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/src/main/java/com/andromeda/iot/light/main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577756213939</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed odd issue">
+      <created>1577758683940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577758683940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +283,8 @@
     <MESSAGE value="NFC stuff" />
     <MESSAGE value="works" />
     <MESSAGE value="gradle 6.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle 6.0.1" />
+    <MESSAGE value="fixed odd issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed odd issue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577579926997">
@@ -289,15 +296,19 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1577594885707" />
+    <state x="550" y="187" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577761692341">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="550" y="187" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1577761692341" />
     <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577594612001">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="637" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577594612001" />
-    <state x="175" y="27" width="818" height="741" key="CommitChangelistDialog2" timestamp="1577756213328">
+    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2" timestamp="1577758683590">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="391" y="121" width="888" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1577745985196" />
-    <state x="175" y="27" width="822" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577756213328" />
+    <state x="175" y="27" width="824" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577758683590" />
     <state x="216" y="121" width="818" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747402960" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1577649217268">
       <screen x="0" y="236" width="3046" height="814" />
@@ -308,39 +319,39 @@
     </state>
     <state x="994" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1570556253194" />
     <state x="707" y="225" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577560436091" />
-    <state width="1318" height="263" key="GridCell.Tab.0.bottom" timestamp="1577758490411">
+    <state width="1318" height="263" key="GridCell.Tab.0.bottom" timestamp="1577764702160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1577650777458" />
-    <state width="1318" height="263" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577758490411" />
+    <state width="1318" height="263" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
     <state width="1632" height="418" key="GridCell.Tab.0.bottom/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.center" timestamp="1577758490410">
+    <state width="1318" height="263" key="GridCell.Tab.0.center" timestamp="1577764702160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1577650777457" />
-    <state width="1318" height="263" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577758490410" />
+    <state width="1318" height="263" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
     <state width="1632" height="418" key="GridCell.Tab.0.center/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.left" timestamp="1577758490410">
+    <state width="1318" height="263" key="GridCell.Tab.0.left" timestamp="1577764702159">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1577650777456" />
-    <state width="1318" height="263" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577758490410" />
+    <state width="1318" height="263" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577764702159" />
     <state width="1632" height="418" key="GridCell.Tab.0.left/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
-    <state width="1318" height="263" key="GridCell.Tab.0.right" timestamp="1577758490410">
+    <state width="1318" height="263" key="GridCell.Tab.0.right" timestamp="1577764702160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="264" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1577650777457" />
-    <state width="1318" height="263" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577758490410" />
+    <state width="1318" height="263" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577764702160" />
     <state width="1632" height="418" key="GridCell.Tab.0.right/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577747466150" />
     <state x="384" y="110" width="587" height="581" key="RollbackChangesDialog" timestamp="1577756109780">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="384" y="110" width="587" height="581" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1577756109780" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577755355499">
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor" timestamp="1577761694994">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="699" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1570556262691" />
-    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577755355499" />
+    <state x="280" y="27" width="1086" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577761694994" />
     <state x="344" y="236" key="SettingsEditor/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1577746593110" />
     <state x="319" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577756661422">
       <screen x="0" y="27" width="1366" height="741" />
@@ -360,5 +371,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="870" y="246" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1570555999696" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577761746445">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1577761746445" />
   </component>
 </project>
