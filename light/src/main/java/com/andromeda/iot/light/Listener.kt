@@ -4,6 +4,7 @@ import com.microsoft.azure.sdk.iot.device.*
 import com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus
 import java.io.IOException
 import java.net.URISyntaxException
+import java.net.URL
 import java.util.*
 
 
@@ -85,6 +86,7 @@ object Listener{
                     "Received message " + counter.toString()
                             + " with content: " + String(msg.bytes, Message.DEFAULT_IOTHUB_MESSAGE_CHARSET))
             counter.increment()
+            val url = URL("")
             return IotHubMessageResult.COMPLETE
         }
     }
