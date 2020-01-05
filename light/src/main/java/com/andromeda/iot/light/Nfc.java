@@ -18,7 +18,7 @@ public class Nfc {
             // Use the first terminal
             CardTerminal terminal = terminals.get(0);
 
-            // Connect wit hthe card
+            // Connect with the card
             Card card = terminal.connect("*");
             System.out.println("Card: " + card);
             CardChannel channel = card.getBasicChannel();
