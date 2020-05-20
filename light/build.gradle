@@ -15,7 +15,7 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.12'
     compile group: 'io.github.jnasmartcardio', name: 'jnasmartcardio', version: '0.2.7'
     compile group: 'com.pi4j', name: 'pi4j-core', version: '1.2'
-    implementation("com.squareup.okhttp3:okhttp:4.2.2")
+    implementation("com.squareup.okhttp3:okhttp:4.7.2")
     compile "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.+"
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.1'
 
