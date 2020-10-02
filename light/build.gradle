@@ -20,7 +20,7 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.11.3'
 
 
-    implementation ('com.microsoft.azure.sdk.iot:iot-device-client:1.25.0')
+    implementation ('com.microsoft.azure.sdk.iot:iot-device-client:1.26.0')
 
 }
 mainClassName="com.andromeda.iot.light.Main"
